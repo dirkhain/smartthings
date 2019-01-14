@@ -96,8 +96,8 @@ def thresholdInputs() {
 
 def onOffInputs() {
     if(aboveThreshold || belowThreshold) {
-        input(name: "switchesOn", type: "capability.switch", title: "Turn On These Switches", required: false, multiple: false, description: null)
-        input(name: "switchesOff", type: "capability.switch", title: "Turn Off These Switches", required: false, multiple: false, description: null)
+        input(name: "switchesOn", type: "capability.switch", title: "Turn On This Switch", required: false, multiple: false, description: null)
+        input(name: "switchesOff", type: "capability.switch", title: "Turn Off This Switch", required: false, multiple: false, description: null)
     }
 }
 
